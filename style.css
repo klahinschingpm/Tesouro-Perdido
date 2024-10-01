@@ -1,0 +1,36 @@
+body {
+    font-family: "Matemasie", system-ui;
+    background-color: rgb(250, 150, 220);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+button {
+    font-family: "Matemasie", system-ui;
+    background-color: rgb(199, 11, 152);
+    color: black;
+    font-size: 20px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    height: 400px;
+    width: 800px;
+}
